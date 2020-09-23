@@ -9,6 +9,7 @@ others = ['morse_code', 'hex']
 base = ['base64', 'base32', 'base16']
 
 allm = base + sha + md5 + others
+
 allm.sort()
 
 
