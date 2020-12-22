@@ -16,7 +16,7 @@ class MainWindow(QWidget, Ui_Dialog):
         self.setupUi(self)
         self.show()
         self.ui()
-        self.setWindowTitle('Thomas Smartcoder-v1.3')
+        self.setWindowTitle('Thomas Smartcoder-v1.4')
 
         self.final = ''
         self.original = ''

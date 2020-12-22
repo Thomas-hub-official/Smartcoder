@@ -37,7 +37,6 @@ def morse_de(string, sign):
 
 
 def morse_en(string, sign):
-    string
     str = ''
     for char in string:
         str += reverse_MorseList.get(char)
