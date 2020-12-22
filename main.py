@@ -89,6 +89,7 @@ class MainWindow(QWidget, Ui_Dialog):
             if self.method == '':
                 self.final = 'Hey, select a function to decode, stupid!!!'
 
+
                 # md5
             elif self.method == 'md5_8':
                 self.final = md5_encode_8(self.original)
