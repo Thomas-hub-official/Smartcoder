@@ -83,6 +83,7 @@ class MainWindow(QWidget, Ui_Dialog):
 
     def use_methods(self):
 
+
         # 编码encode
         if self.de_en == 2:
             if self.method == '':
