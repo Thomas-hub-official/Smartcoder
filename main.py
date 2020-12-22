@@ -25,6 +25,7 @@ class MainWindow(QWidget, Ui_Dialog):
         self.de_en = 2
         self.filelist = []
 
+
     def ui(self):
 
         self.listWidget.setEditTriggers(QAbstractItemView.NoEditTriggers)  # 禁止修改item
@@ -85,7 +86,7 @@ class MainWindow(QWidget, Ui_Dialog):
         # 编码encode
         if self.de_en == 2:
             if self.method == '':
-                self.final = 'Hey, select a function to decode, stupid!'
+                self.final = 'Hey, select a function to decode, stupid!!!'
 
                 # md5
             elif self.method == 'md5_8':
