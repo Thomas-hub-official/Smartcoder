@@ -91,8 +91,8 @@ class MainWindow(QWidget, Ui_Dialog):
 
 
                 # md5
-            elif self.method == 'md5_8':
-                self.final = md5_encode_8(self.original)
+            elif self.method == 'md5_32':
+                self.final = md5_encode_32(self.original)
             elif self.method == 'md5_16':
                 self.final = md5_encode_16(self.original)
 

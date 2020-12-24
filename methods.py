@@ -4,7 +4,7 @@ import hashlib
 import base64
 
 sha = ['sha_256', 'sha_512', 'sha_1', 'sha_384', 'sha_224']
-md5 = ['md5_8', 'md5_16']
+md5 = ['md5_32', 'md5_16']
 others = ['morse_code', 'hex']
 base = ['base64', 'base32', 'base16']
 
@@ -14,7 +14,7 @@ allm.sort()
 
 
 # md5
-def md5_encode_8(str):
+def md5_encode_32(str):
     return hashlib.md5(str.encode(encoding='UTF-8')).hexdigest()
 
 
